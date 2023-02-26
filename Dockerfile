@@ -7,6 +7,6 @@ COPY ./yarn.lock /usr/src/app/
 COPY ./.yarn/ /usr/src/app/.yarn
 ENV NODE_ENV production
 RUN npm config set registry https://registry.npmjs.org/
-RUN yarn install --immutable
+RUN yarn install
 COPY . /usr/src/app
 CMD [ "npm", "run", "start" ]
