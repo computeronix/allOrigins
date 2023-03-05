@@ -1,4 +1,4 @@
-FROM node:16-slim
+FROM node:16.19.1-bullseye-slim
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY ./package.json /usr/src/app/
