@@ -13,7 +13,7 @@
   "dependencies": {
     "agentkeepalive": "^4.2.1",
     "express": "^4.18.1",
-    "got": "^11",
+    "got": "^12.5.3",
     "iconv-lite": "^0.6.3"
   },
   "devDependencies": {
